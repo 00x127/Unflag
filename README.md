@@ -1,16 +1,12 @@
 ## What this does
 
 Some apps use `FLAG_SECURE` to block screenshots. This attempts to bypass it so screenshots and screen recording work again.
+All you need to do is run the command on your terminal.
 
 ```bash
 adb shell settings put global disable_screen_secure 1
 ```
 
-**Revert:**
-
-```bash
-adb shell settings put global disable_screen_secure 0
-```
 ## Requirements
 
 * Any Android device (5.0+)
