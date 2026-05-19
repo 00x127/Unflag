@@ -1,7 +1,8 @@
 ## What this does
 
 Some apps use `FLAG_SECURE` to block screenshots. This attempts to bypass it so screenshots and screen recording work again.
-All you need to do is run the command on your terminal.
+
+All you need to do is run the command on your terminal while your usb is connected to your phone.
 
 ```bash
 adb shell settings put global disable_screen_secure 1
