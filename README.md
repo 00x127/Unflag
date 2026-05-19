@@ -11,13 +11,6 @@ adb shell settings put global disable_screen_secure 1
 ```bash
 adb shell settings put global disable_screen_secure 0
 ```
-
-**Check state:**
-
-```bash
-adb shell settings get global disable_screen_secure
-```
-
 ## Requirements
 
 * Any Android device (5.0+)
